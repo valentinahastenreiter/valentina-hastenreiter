@@ -79,4 +79,46 @@ button{
   color: black;
   font-weight: 500;
   cursor: pointer;
+ }
+
+ @media screen and (max-width: 480px) {
+  .c{
+    height:max-content ;
+  }
+  
+  .c-wrapper{
+    flex-direction: column;
+    padding: 0 35px;
+}
+
+  .c-title{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .c-info-item{
+    margin: 20px 0px;
+    width: 100%;
+  }
+
+  .c-desc{
+    display: none;
+
+  }
+
+  form{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  input{
+    width: -webkit-fill-available;
+    margin: 10px;
+    margin-left: 0px;
+  }
+
+  button {
+  margin-bottom: 20px;   
+  }
 }

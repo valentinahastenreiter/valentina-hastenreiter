@@ -10,15 +10,13 @@ const Intro = () => {
           <h1 className="i-name">Valentina Hastenreiter</h1>
           <div className="i-title">
             <div className="i-title-wrapper">
-            <div className="i-title-item">Web Developer</div>
-            <div className="i-title-item">UI/UX Designer</div>
+            <div className="i-title-item">Desenvolvedora</div>
             <div className="i-title-item">Interior Design</div>
-            <div className="i-title-item">Writer</div>
-            <div className="i-title-item">Content Creator</div>
+            <div className="i-title-item">Design lover</div>
             </div>
           </div>
           <p className="i-desc">
-            Sou uma desenvolvedora Front-end e busco me especializar em criar estilos, wesites modernos e e-commerce. 
+            Sou uma desenvolvedora Front-end, polímata e apaixonada por Design.   
           </p>
         </div>
       </div>
