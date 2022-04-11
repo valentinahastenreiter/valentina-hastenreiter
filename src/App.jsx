@@ -4,6 +4,7 @@ import Intro from "./components/intro/Intro";
 import ProductList from "./components/productsList/ProductList";
 import Toggle from "./components/toggle/Toggle";
 import { ThemeContext } from "./context.js";
+import React, {useContext} from "react";
 
 const App = () => {
 
