@@ -1,5 +1,5 @@
 import "./about.css"
-// import Foto from "../../img/tina.jpg"
+
 import Me from "../../img/me.png"
 
 const About = () => {
