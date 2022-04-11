@@ -2,13 +2,16 @@ import "./contact.css"
 import Phone from "../../../src/img/whatsapp.png"
 import Email from "../../../src/img/email.png"
 import Adress from "../../../src/img/adress.png"
-import { useRef } from "react"
+import { useContext, useRef, useState } from "react"
 import emailjs from '@emailjs/browser';
-import { useState } from "react/cjs/react.development"
+import { ThemeContext } from "../../context"
+
 
 const Contact = () => {
   const formContact = useRef();
   const [done, setDone] = useState(false)
+  const theme = useContext(ThemeContext);
+  const darkMode = theme.state.darkMode;
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -60,12 +63,12 @@ return (
             <b>Lorem ipsum dolor sit amet consectetur</b>adipisicing elit. Sunt, dolore repellat libero veniam obcaecati quam minus eaque aliquam aliquid ad necessitatibus labore nulla nesciunt nobis suscipit cum quisquam molestias fugiat!
           </p>
           <form ref={formContact} onSubmit={sendEmail}>
-            <input type="text" placeholder="Name" name="user_name"/>
-            <input type="text" placeholder="Subject" name="user_subject"/>
-            <input type="text" placeholder="Email" name="user_email"/>
-            <textarea rows="5" placeholder="Message" name="message"></textarea>
+            <input style={{backgrounColor: darkMode && "#333"}} type="text" placeholder="Name" name="user_name"/> 
+            <input style={{backgrounColor: darkMode && "#333"}} type="text" placeholder="Subject" name="user_subject"/>
+            <input style={{backgrounColor: darkMode && "#333"}} type="text" placeholder="Email" name="user_email"/>
+            <textarea style={{backgrounColor: darkMode && "#333"}} rows="5" placeholder="Message" name="message"></textarea>
           <button type="submit">Submit</button>
-          {done && "Obrigada pela mensagem, te responderei em breve..."}
+            {done && "Obrigada pela mensagem, te responderei em breve..."}
           </form>
         </div>
       </div>
