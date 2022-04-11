@@ -2,9 +2,12 @@ import "./toggle.css"
 import Sun from "../../img/sun.png"
 import Moon from "../../img/moon.png"
 import { ThemeContext } from "../../context"
+import React, { useContext } from "react"
 
 const Toggle = () => {
-  const context = useContext(ThemeContext)
+  
+  const theme = useContext(ThemeContext);
+  
 
   const handleClick = ()=>{
     theme.dispatch({ type:"TOGGLE" }); 
@@ -21,3 +24,4 @@ const Toggle = () => {
 };
 
 export default Toggle
+

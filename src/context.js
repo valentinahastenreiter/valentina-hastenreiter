@@ -14,12 +14,12 @@ const themeReducer =  (state, action) => {
     }
 };
 
-export const ThemeProvider = (props)=>{
+export const ThemeProvider = ({children})=>{
   const [state, dispatch] = useReducer(themeReducer, initial_state);
 
   return (
     <ThemeContext.Provider value={{state: state, dispatch:dispatch}}>
-      {props.children}
+      {children}
     </ThemeContext.Provider>
   );
 };
