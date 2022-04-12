@@ -25,7 +25,7 @@ const About = () => {
         decidi iniciar minhar jornada num Bootcamp da <b>Reprograma</b> que finalizou em Dezembro, mas tenho mantido meu ritmo de estudo diário.
         </p>
         <p className="a-desc">
-        Quer saber mais sobre mim? Me siga no <a class="a-desc-link" href="https://www.linkedin.com/in/valentina-hastenreiter/">LindekIn</a>
+        Quer saber mais sobre mim? Me siga no <a className="a-desc-link" href="https://www.linkedin.com/in/valentina-hastenreiter/">LindekIn</a>
         </p>
       </div>
     </div>
