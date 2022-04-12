@@ -38,6 +38,7 @@
   margin: 50px 0px;
   font-weight: 300;
   width: 70%;
+  font-size: 20px;
 
 }
 
@@ -49,6 +50,7 @@
 
 .c-desc{
   font-weight: 200;
+  font-size: 20px;
 }
 
 form{

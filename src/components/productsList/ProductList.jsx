@@ -10,7 +10,7 @@ const ProductList = () => {
         <p className="pl-desc">
         Fez parte dos meus projetos, noções de versionamento com Git, além de linguagens como HTML5, CSS3, Javascript e ReactJS. 
         Chamo atenção para meu projeto final de curso o "Projeto Acué" que une profissionais da comunidade LGBTQIA+ à contratantes que apoiam a causa,
-        ficou entre um dos 5 selecionados e está disponível no meu Github
+        ficou entre um dos 5 selecionados do meu curso na apresentação final.
         </p>
       </div>
       <div className="pl-list">
