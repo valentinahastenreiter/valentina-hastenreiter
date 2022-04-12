@@ -8,7 +8,7 @@ const ProductList = () => {
       <div className="pl-texts">
         <h1 className="pl-title">Portifolio</h1>
         <p className="pl-desc">
-        Fez parte dos meus projetos, noções de versionamento com Git, além de Stack's como HTML5, CSS3, Javascript e ReactJS. 
+        Fez parte dos meus projetos, noções de versionamento com Git, além de linguagens como HTML5, CSS3, Javascript e ReactJS. 
         Chamo atenção para meu projeto final de curso o "Projeto Acué" que une profissionais da comunidade LGBTQIA+ à contratantes que apoiam a causa,
         ficou entre um dos 5 selecionados e está disponível no meu Github
         </p>
