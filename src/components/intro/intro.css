@@ -64,18 +64,14 @@
 @media screen and (max-width: 480px) {
   .i{
     flex-direction: column;
-    height: 50vh;
+    height: 30vh;
     margin-bottom: 0;
 }
   .i-left-wrapper{
     padding: 10px;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-  }
-
-  .i-left{
-    height: auto;
+    height: 25vh;
+    margin-top: 25px;
+    margin-left: 30px;
   }
 
   .i-desc{

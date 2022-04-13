@@ -29,8 +29,8 @@
 
 @media screen and (max-width: 480px){
   .pl{
-    top: 100px;
-    padding: 10px;
+    padding: 10px 10px;
+    height: 100vh;
   }
 
   .pl-texts{

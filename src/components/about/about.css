@@ -60,7 +60,7 @@
     flex-direction: column;
     margin-top: 10px;
     margin-right: 10p;
-    height: 165vh;
+    height: 100vh;
   } 
    
    .a-right{
@@ -68,7 +68,7 @@
     margin: 0 20px 0 5px;
     padding: 10px;
     margin-left: 5px;
-  }
+}
 
   .a-left{
     margin: 50 50;
@@ -87,6 +87,9 @@
     left: 0;
    } 
 
+   .a-sup, .a-desc{
+    font-size: 16px;
+  }
 
 
 
