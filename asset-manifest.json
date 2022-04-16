@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/Portifolio-react/static/css/main.df06f4e1.css",
-    "main.js": "/Portifolio-react/static/js/main.cf6a3a2a.js",
-    "static/media/me.png": "/Portifolio-react/static/media/me.47d2ebd1a80fc15b09b8.png",
-    "index.html": "/Portifolio-react/index.html",
-    "main.df06f4e1.css.map": "/Portifolio-react/static/css/main.df06f4e1.css.map",
-    "main.cf6a3a2a.js.map": "/Portifolio-react/static/js/main.cf6a3a2a.js.map"
+    "main.css": "/valentina-hastenreiter/static/css/main.e6c4c552.css",
+    "main.js": "/valentina-hastenreiter/static/js/main.97f4ce6d.js",
+    "static/media/me.png": "/valentina-hastenreiter/static/media/me.47d2ebd1a80fc15b09b8.png",
+    "index.html": "/valentina-hastenreiter/index.html",
+    "main.e6c4c552.css.map": "/valentina-hastenreiter/static/css/main.e6c4c552.css.map",
+    "main.97f4ce6d.js.map": "/valentina-hastenreiter/static/js/main.97f4ce6d.js.map"
   },
   "entrypoints": [
-    "static/css/main.df06f4e1.css",
-    "static/js/main.cf6a3a2a.js"
+    "static/css/main.e6c4c552.css",
+    "static/js/main.97f4ce6d.js"
   ]
 }
