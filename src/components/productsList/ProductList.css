@@ -10,10 +10,6 @@
   width: 65%;
 }
 
-.pl-title{
-  font-size: 50px;
-  font-weight: 600;
-}
 
 .pl-desc{
   margin: 20px 0px;
@@ -30,12 +26,14 @@
 @media screen and (max-width: 480px){
   .pl{
     padding: 10px 10px;
-    height: 100vh;
+    height: 65vh;
+    margin-top: 250px;
   }
 
   .pl-texts{
     width: 100%;
   }
+
   .pl-desc{
     display: none;
   }
