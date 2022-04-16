@@ -12,6 +12,7 @@
   position: relative;
   height: 80%;
   margin-left: 20px;
+  margin-left: 0;
 }
 
 .a-right{
@@ -41,7 +42,6 @@
   height: 100%;
   object-fit: contain;
   position: absolute;
-  left: 0;
   transform: scaleX(-1);
 }
 
@@ -51,8 +51,7 @@
   width: 100%;
   height: 100%;
   position: absolute;
-  top: 0;
-  right: 0;
+  
 }
 
 @media screen and (max-width:480px) {
