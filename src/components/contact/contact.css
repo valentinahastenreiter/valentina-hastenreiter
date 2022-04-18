@@ -1,6 +1,7 @@
 .c{
-  height: 70vh;
+  height: 100vh;
   position: relative;
+  margin-bottom: 0;
 }
 
 .c-bg{
