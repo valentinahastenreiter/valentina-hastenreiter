@@ -14,7 +14,7 @@ const About = () => {
         <h1 className="a-title">Sobre mim</h1>
         <p className="a-sup">
         Sou uma mulher transgênero e estou em processo de transição de carreira para área Tech como <b>Desenvolvedora
-        Frontend</b> . Essa descisão surgiu após 8 anos de trabalho na área de
+        Front-end</b> . Essa descisão surgiu após 8 anos de trabalho na área de
         Construção Civil, onde me iniciei como auxiliar técnica e encerrei minhas
         atividades como Subsecretária de Obras e Tecnologia, liderando um equipe
         com 4 pessoas e monitorando diversas obras.
