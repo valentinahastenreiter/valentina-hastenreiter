@@ -7,16 +7,16 @@ export const products = [
   {
     id: 2,
     img: "https://i.ibb.co/vHgYHS9/p-maravilhosa.png",
-    link: "https://projetomdemarvailhosa-valentinahastenreiter.netlify.app/",
+    link: "https://projetomdemaravilhosa-valentinahastenreiter.netlify.app/",
   },
   {
     id: 3,
     img: "https://i.ibb.co/7p0Pzhq/p-guiado.png",
     link: "https://projeto-guiado-react.netlify.app/",
   },
-  {
-    id: 4,
-    img: "https://i.ibb.co/MNfXFVx/p-acue.png",
-    link: "https://projeto-final-acue.netlify.app/",
-  },
+  // {
+  //   id: 4,
+  //   img: "https://i.ibb.co/MNfXFVx/p-acue.png",
+  //   link: "https://projeto-final-acue.netlify.app/",
+  // },
 ];
