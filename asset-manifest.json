@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/valentina-hastenreiter/static/css/main.747da9fb.css",
-    "main.js": "/valentina-hastenreiter/static/js/main.fa945bdd.js",
+    "main.js": "/valentina-hastenreiter/static/js/main.fb06a6d1.js",
     "static/media/me.png": "/valentina-hastenreiter/static/media/me.47d2ebd1a80fc15b09b8.png",
     "index.html": "/valentina-hastenreiter/index.html",
     "main.747da9fb.css.map": "/valentina-hastenreiter/static/css/main.747da9fb.css.map",
-    "main.fa945bdd.js.map": "/valentina-hastenreiter/static/js/main.fa945bdd.js.map"
+    "main.fb06a6d1.js.map": "/valentina-hastenreiter/static/js/main.fb06a6d1.js.map"
   },
   "entrypoints": [
     "static/css/main.747da9fb.css",
-    "static/js/main.fa945bdd.js"
+    "static/js/main.fb06a6d1.js"
   ]
 }
